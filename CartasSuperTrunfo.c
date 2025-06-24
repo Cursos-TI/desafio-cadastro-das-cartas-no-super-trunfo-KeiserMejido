@@ -11,8 +11,9 @@ int main() {
     float size, PIB;
     //size: area of the city in square kilometers (km²)
     //PIB: Gross Domestic Product of the city in Brazilian Reais (R$)
-    //this section collects the card 1 infos 
-    
+
+
+//this section collects the card 1 infos 
     printf (" Wellcome to Super Trunfo!\n\n");
     printf (" Add the informations for card number 1\n\n");
     printf ("enter the initial of the state:\n");
@@ -36,21 +37,7 @@ int main() {
     printf ("How many tourist attractions?:\n");
     scanf ("%d", &places);
 
-
-
-    //shows the card 1 
-    printf ("\n Card number 1:\n");
-    printf ("Initial lettler:%c \n", state);
-    printf ("card code: %c%s \n", state, cod);
-    printf ("city name:%s \n", city);
-    printf ("population is: %d people \n", population);
-    printf ("Area is: %.2f km² \n", size);
-    printf ("the PIB is: R$%.2f \n", PIB);
-    printf ("tourist attractions: %d \n", places);
-
-
-
-
+    
  //this section collects the card 2 infos 
     printf (" Add the informations for card number 2\n\n");
     printf ("enter the initial of the state:\n");
@@ -74,7 +61,18 @@ int main() {
     printf ("How many tourist attractions?:\n");
     scanf ("%d", &places);
 
-    //shows the card 2
+
+//shows the card 1 
+    printf ("\n Card number 1:\n");
+    printf ("Initial lettler:%c \n", state);
+    printf ("card code: %c%s \n", state, cod);
+    printf ("city name:%s \n", city);
+    printf ("population is: %d people \n", population);
+    printf ("Area is: %.2f km² \n", size);
+    printf ("the PIB is: R$%.2f \n", PIB);
+    printf ("tourist attractions: %d \n", places);
+
+//shows the card 2
     printf ("\n Card number 2:\n");
     printf ("Initial lettler:%c \n", state);
     printf ("card code: %c%s \n", state, cod);
