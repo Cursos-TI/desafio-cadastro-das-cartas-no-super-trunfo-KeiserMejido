@@ -61,7 +61,7 @@ int main() {
     scanf ("%s", &cod);
 
     printf ("what's the city name?:\n");
-    canf ("%s", &city);
+    scanf ("%s", &city);
 
     printf ("what's the population?:\n");
     scanf ("%d", &population);
