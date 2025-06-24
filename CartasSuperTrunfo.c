@@ -46,7 +46,7 @@ int main() {
     printf ("city name:%s \n", city);
     printf ("population is: %d \n", population);
     printf ("Area is: %f km² \n", size);
-    printf ("the PIB is: R$%f2 \n", PIB);
+    printf ("the PIB is: R$%f \n", PIB);
     printf ("tourist attractions: %d \n", places);
 
 
@@ -54,29 +54,39 @@ int main() {
 
  //this section collects the card 2 infos 
 
-    ///printf (" Add the informations for card number 2\n\n");
-    ///printf ("enter the initial of the state:\n");
-    ///scanf ("%c", &state);
+    printf (" Add the informations for card number 2\n\n");
+    printf ("enter the initial of the state:\n");
+    scanf ("%c", &state);
 
-   /// printf ("Set the card code:\n");
-    ///scanf ("%s", &cod);
+    printf ("Set the card code:\n");
+    scanf ("%s", &cod);
 
-   /// printf ("what's the city name?:\n");
-    ///scanf ("%s", &city);
+    printf ("what's the city name?:\n");
+    canf ("%s", &city);
 
-   /// printf ("what's the population?:\n");
-   /// scanf ("%d", &population);
+    printf ("what's the population?:\n");
+    scanf ("%d", &population);
 
-    ///printf ("what's the area of the city?:\n");
-    ///scanf ("%f", &size);
+    printf ("what's the area of the city?:\n");
+    scanf ("%f", &size);
 
-    ///printf ("what's the PIB of the city?:\n ");
-    ///scanf ("%f", &PIB);
+    printf ("what's the PIB of the city?:\n ");
+    scanf ("%f", &PIB);
 
-    ///printf ("How many tourist attractions?:\n");
-   /// scanf ("%d", &places);
+    printf ("How many tourist attractions?:\n");
+    scanf ("%d", &places);
 
 
+
+    //shows the card 2
+    printf ("\n Card number 1:\n");
+    printf ("state:%c \n", state);
+    printf ("code: %c%s \n", state, cod);
+    printf ("city name:%s \n", city);
+    printf ("population is: %d \n", population);
+    printf ("Area is: %f km² \n", size);
+    printf ("the PIB is: R$%f \n", PIB);
+    printf ("tourist attractions: %d \n", places);
 
   
 
