@@ -44,8 +44,8 @@ int main() {
     printf ("card code: %c%s \n", state, cod);
     printf ("city name:%s \n", city);
     printf ("population is: %d people \n", population);
-    printf ("Area is: %f km² \n", size);
-    printf ("the PIB is: R$%f \n", PIB);
+    printf ("Area is: %.2f km² \n", size);
+    printf ("the PIB is: R$%.2f \n", PIB);
     printf ("tourist attractions: %d \n", places);
 
 
@@ -80,8 +80,8 @@ int main() {
     printf ("card code: %c%s \n", state, cod);
     printf ("city name:%s \n", city);
     printf ("population is: %d people \n", population);
-    printf ("Area is: %f km² \n", size);
-    printf ("the PIB is: R$%f \n", PIB);
+    printf ("Area is: %.2f km² \n", size);
+    printf ("the PIB is: R$%.2f \n", PIB);
     printf ("tourist attractions: %d \n", places);
 
   
