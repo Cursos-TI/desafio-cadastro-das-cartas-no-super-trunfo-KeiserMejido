@@ -10,10 +10,9 @@ int main() {
     // places: number of tourist attractions in the city
     float size, PIB;
     //size: area of the city in square kilometers (km²)
-
- 
-
+    //PIB: Gross Domestic Product of the city in Brazilian Reais (R$)
     //this section collects the card 1 infos 
+    
     printf (" Wellcome to Super Trunfo!\n\n");
     printf (" Add the informations for card number 1\n\n");
     printf ("enter the initial of the state:\n");
